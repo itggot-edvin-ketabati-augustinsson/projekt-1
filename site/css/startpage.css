@@ -1,0 +1,27 @@
+.wrapper{
+    max-height: 640px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10,1fr);
+}
+
+header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: firebrick;
+}
+
+.image{
+    grid-column: 1/2;
+    grid-row: 2/6;
+    background-color: hotpink;
+}
+
+main{
+    grid-column: 12/20;
+}
+
+@media only screen and (min-device-width: 400px){
+
+
+}
