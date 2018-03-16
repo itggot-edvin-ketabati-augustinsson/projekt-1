@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/startpage.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Rehabcenter</title>
 </head>
 <body>
@@ -19,7 +19,8 @@
                 <i class="material-icons" onclick="toggleMenuMenu()">menu</i>
             </div>
         </header>
-        <div class="profile_menu">
+        <main>
+            <div class="profile_menu">
                 <ul>
                     <li>Lorem</li>
                     <li>Ipsum</li>
@@ -37,13 +38,7 @@
                     <li>Amet</li>
                 </ul>
             </div>
-        <div class="image">
-            <img src="./img/startpage.png" alt="Image advertising the company">
-        </div>
-        <main>
-            <button class="hitta_oss_button">Hitta oss</button>
-            <button class="boka_button" onclick="location.href='./boka.html'">Boka</button>
-            <p class="main_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat odio incidunt labore vel, temporibus eos tenetur ex doloremque ipsam tempore, commodi obcaecati debitis neque placeat exercitationem? Accusantium saepe voluptatum quam.</p>
+            <%= yield %>
         </main>
         <footer>
             <p>Lorem ipsum dolor sit, amet consectetur</p>
